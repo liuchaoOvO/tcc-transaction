@@ -22,7 +22,7 @@
         <property name="transactionConfigurator" ref="transactionConfigurator"/>
     </bean>
 
-    <task:annotation-driven/>
+    <!--<task:annotation-driven/>-->
 
 
     <bean id="transactionRecovery" class="org.mengyun.tcctransaction.recover.TransactionRecovery">
